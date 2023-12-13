@@ -363,6 +363,7 @@ class Coach:
 			aging_loss, id_logs = self.aging_loss(y_hat, y, target_ages, id_logs, label=data_type)
 			loss_dict[f'loss_aging_{data_type}'] = float(aging_loss)
 			loss += aging_loss * self.opts.aging_lambda
+		#####################MODIFICATION################################
 		if (self.opts.race_lambda > 0):
 			inputs_race = [DeepFace.analyze((image + 1) * 127.5 , actions=("race"),
 													enforce_detection=False, detector_backend="opencv",
@@ -381,6 +382,7 @@ class Coach:
 			loss_dict[f'loss_race'] = float(race_loss)
 			loss += race_loss * self.opts.race_lambda
 		loss_dict[f'loss_{data_type}'] = float(loss)
+		#################################################################
 		if data_type == "cycle":
 			loss = loss * self.opts.cycle_lambda
 		return loss, loss_dict, id_logs
