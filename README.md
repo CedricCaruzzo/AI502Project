@@ -18,7 +18,7 @@ Due to the different dependencies of Deepface and SAM, we recommend the followin
 
 1. Create a virtual environment based on Python 3.10 using miniconda.
 2. Refer to Deepface's page and install from source.
-3. Check the behavior of Deepface.
+3. Check the execution of Deepface.
 4. Install the latest version of the packages in SAM's /environment/sam_env.yaml file.
 
 ## Modification
