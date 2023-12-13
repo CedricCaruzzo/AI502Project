@@ -1,6 +1,7 @@
 # Racial Bias Removal for Face Age Progression
 
 This repository is for submitting source code for the Term Project for the AI502 class.
+Cedric Caruzzo, Juchul Shin, Minshik Choi
 
 ## The baseline
 - Paper
