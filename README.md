@@ -30,8 +30,8 @@ For training, see the readme in the SAM repository. You will need a variety of p
 ## Inference Notebook
 Here's a link to the Colab page where you can do Face Age Progression with the model you trained with this source code. You can create an animation and an image file, respectively.
 
-### Generating Animation
+### Generating an animation
 https://colab.research.google.com/drive/1Ha9iPGjCp6VZcFyjjwXVz7qjFnh3Uov0?usp=sharing
 
-### Generating images
+### Generating a set of life span images
 https://colab.research.google.com/drive/1pjXfgdjT6N0z3BXUAuRn47fjTZXBSe3q?usp=sharing
